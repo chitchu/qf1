@@ -1,0 +1,26 @@
+{
+    "challenges": [{
+        "id": 2,
+        "question": "Last Name",
+        "questionHTML": "<strong>Last Name</strong>",
+        "answerType": "string",
+        "answerLength": 100,
+        "mandatory": true
+    }, {
+        "id": 1,
+        "question": "Membership Number",
+        "questionHTML": "<strong>Membership Number</strong>",
+        "answerType": "string",
+        "answerLength": 10,
+        "mandatory": true
+    }, {
+        "id": 3,
+        "question": "PIN",
+        "questionHTML": "<strong>PIN</strong>",
+        "answerType": "string",
+        "answerLength": 4,
+        "mandatory": true
+    }],
+    "challenge_type": "qff",
+    "callback_url": "/my/v2/auth/mfa/?method=pwd&state=-onwKPtE6lEqWFyNTxab9k80CwKeg0atgEFhqze8IUE"
+}

@@ -1,0 +1,5 @@
+{
+    "code": "AUTH-OPT",
+    "error": "authentication_required",
+    "message": "Otp verification failed."
+}

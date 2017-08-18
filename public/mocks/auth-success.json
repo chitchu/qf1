@@ -1,0 +1,15 @@
+{
+    "message": "We've sent a security code in a text message to +61 XXX XXX 078",
+    "challenges": [{
+        "id": 4,
+        "question": "SMS Code",
+        "questionHTML": "<strong>SMS Code</strong>",
+        "answerType": "string",
+        "answerLength": 6,
+        "mandatory": true
+    }],
+    "challenge_type": "otp",
+    "callback_url": "/my/v2/auth/mfa/?method=sms&state=-onwKPtE6lEqWFyNTxab9k80CwKeg0atgEFhqze8IUE&validation_mode=mfa",
+    "resend_pin_url": "/my/v2/auth/otp?state=-onwKPtE6lEqWFyNTxab9k80CwKeg0atgEFhqze8IUE",
+    "change_mobile_url": "/my/v2/auth/authorise?level=2&method=sms&state=-onwKPtE6lEqWFyNTxab9k80CwKeg0atgEFhqze8IUE"
+}

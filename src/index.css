@@ -1,0 +1,18 @@
+#wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('thomas-kelley-276597.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#root {
+  margin: auto;
+  width: 50vw;
+}
